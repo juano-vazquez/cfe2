@@ -25,7 +25,7 @@ if (!db_url) {
 // Middleware to accept request from multiple origins.
 app.use(
   cors({
-    origin: ["http://localhost:8081", "http://localhost:4200"], // URL de tu aplicación Angular
+    origin: ["https://cfegstl.com", "https://www.cfegstl.com/login"], // URL de tu aplicación Angular
     credentials: true, // Permite el envío de cookies
   })
 );
